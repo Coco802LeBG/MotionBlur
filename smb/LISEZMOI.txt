@@ -1,0 +1,15 @@
+SIMPLE MOTION BLUR - Fabric 1.21.11 (code source)
+
+Ce zip contient le CODE SOURCE, pas un mod pret a l'emploi.
+Renommer ce zip en .jar ne marchera pas : il faut le compiler.
+
+Methode la plus simple (rien a installer) :
+1. Cree un depot GitHub, envoie-y tout le contenu de ce dossier.
+2. Onglet "Actions" > workflow "build" > attends la fin.
+3. Telecharge l'artefact "simple-motion-blur-jar" : le .jar est dedans.
+4. Mets le .jar dans le dossier mods avec Fabric API et Mod Menu.
+
+Reglages : Mod Menu > Simple Motion Blur > bouton de configuration.
+Fichier de config : config/simplemotionblur.json
+
+ATTENTION : non teste. Si la compilation echoue, envoie l'erreur pour correction.

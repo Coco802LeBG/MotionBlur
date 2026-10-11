@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "simplemotionblur",
+  "version": "${version}",
+  "name": "Simple Motion Blur",
+  "description": "Motion blur configurable via Mod Menu.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.motionblur.MotionBlurMod"],
+    "modmenu": ["com.example.motionblur.ModMenuIntegration"]
+  },
+  "mixins": ["simplemotionblur.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  },
+  "suggests": { "modmenu": "*" }
+}
